@@ -73,7 +73,7 @@ pickle.dump(modelo, open('modelo/modelo-titanic.pkl', 'wb'))
 #request
 df_json = x.to_json(orient='records')
 
-url = 'http://192.168.1.105:8880/predict'
+url = 'https://titanic-survivor-model.herokuapp.com/predict'
 data = df_json
 header = {'Content-type': 'application/json'}
 
