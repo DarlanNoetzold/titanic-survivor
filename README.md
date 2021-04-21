@@ -7,3 +7,5 @@
 * O projeto trabalha com um Dataset de sobreviventes e não sobreviventes do Titanic.
 * Foi feito a analise e manipulção dos dados para melhor usuabilidade dos mesmos.
 * A predição usa esses dados para dizer se a pessoa em questão sobreviveu ou não.
+
+Linka da API: https://titanic-survivor-model.herokuapp.com/predict
