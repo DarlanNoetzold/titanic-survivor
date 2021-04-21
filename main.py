@@ -6,6 +6,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 import numpy as np
+import matplotlib.pyplot as plt
+
 
 #data preparation
 dados = pd.read_csv('titanic.csv')
@@ -82,10 +84,4 @@ r = requests.post(url=url, data=data, headers=header)
 #output test
 print(r)
 print(r.json())
-
-
-
-
-
-
 
