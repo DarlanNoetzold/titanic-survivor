@@ -70,7 +70,7 @@ print('R2: {}'.format(r2))
 # save trained model
 pickle.dump(modelo, open('modelo/modelo-titanic.pkl', 'wb'))
 
-#request
+#request test
 df_json = x.to_json(orient='records')
 
 url = 'https://titanic-survivor-model.herokuapp.com/predict'
@@ -79,7 +79,9 @@ header = {'Content-type': 'application/json'}
 
 r = requests.post(url=url, data=data, headers=header)
 
+#output test
 print(r)
+print(r.json())
 
 
 
