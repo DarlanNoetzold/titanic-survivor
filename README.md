@@ -9,3 +9,7 @@
 * A predição usa esses dados para dizer se a pessoa em questão sobreviveu ou não.
 
 Linka da API: https://titanic-survivor-model.herokuapp.com/predict
+
+---
+
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
